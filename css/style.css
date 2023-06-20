@@ -1,5 +1,7 @@
-* {
-
+body {
+    max-width: 1440px;
+    max-height: 5020px;
+    align-items: center;
     background: #F5F5F5;
 }
 
@@ -77,4 +79,141 @@
     font-weight: bold;
     color: rgb(53, 53, 53);
     margin: 0 10px;
+}
+.sobre-detalhe {
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 64px 152px;
+    gap: 10px;
+
+    background: #EAF2FD;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 2rem;
+}
+
+
+.sobre-title {
+    width: 166px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #464646;
+}
+
+.sobre-min {
+    padding-top: 1rem;
+    width: 751px;
+    height: 133px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+
+
+}
+
+.sobre-min-p {
+    padding-top: 1rem;
+}
+
+.tittle-hobbies-skills {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646
+}
+
+.lista-skills {
+
+    display: flex;
+    width: 1136px;
+    margin: 32px 152px 88px 152px;
+
+    justify-content: space-between;
+
+}
+
+.skills-detalhe {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.imagem-skills {
+    margin: 94px 132px 43px 16px;
+    width: 40px;
+    height: 37px;
+}
+
+.texto-Skills {
+    margin: 139px 16px 16px 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    color: #464646;
+
+}
+
+.faculdades-cursos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+    justify-content: space-around;
+   
+}
+
+.logos-cursos {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 368px;
+    height: 286px;
+    
+    align-items: center;
+    justify-content: center;
+  
+
+
+}
+.cursos-faculdades-tempo{
+    display: flex;
+    margin: 0 152px  ;
+    width: 1136px;
+    
+}
+
+.nomes-tempo-cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+
 }
